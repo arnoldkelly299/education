@@ -1,0 +1,127 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Education/Contact Us</title>
+    <link rel="stylesheet" href="edu dark-theme.css" />
+   <script src="https://kit.fontawesome.com/e64319ea6c.js" crossorigin="anonymous"></script>
+    
+  </head>
+  <body>
+    <section class="sub-header">
+      <nav>
+        <a class="t" href="index.html"><img src="logo.png" /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times-circle" onclick="hideMenu()"></i>
+          <ul class="k" id="a">
+            <li><a href="education dark theme.html">HOME</a></li>
+            <li><a href="about usdarkthemr.html">ABOUT</a></li>
+            <li><a href="courses darktheme.html">COURSES</a></li>
+            <li><a href="blog -dark theme.html">BLOG</a></li>
+            <li><a href="Contact Us -darktheme.html">CONTACT</a></li> 
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      
+      <h1>Contact Us</h1>
+    </section>
+
+    <!-- -------contact us contents -->
+
+
+   
+
+<section class="location">
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d402691.81450591306!2d3.0680783390553796!3d6.553325214297675!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b8b2ae68280c1%3A0xdc9e87a367c3d9cb!2sLagos!5e0!3m2!1sen!2sng!4v1676912977033!5m2!1sen!2sng" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+</section>
+    
+
+<section class="Contact-us">
+  <div class="row">
+    <div class="contact-col">
+      <div>
+        <i class="fa fa-home"></i>
+        <span>
+          <h5>KELLY Road, Lexus Building</h5>
+          <p>Lagos Island, Nigeria, AF</p>
+        </span>
+      </div>
+       <div>
+        <i class="fa fa-phone"></i>
+        <span>
+          <h5>+2347039929446</h5>
+          <p>Monday to Saturday</p>
+        </span>
+      </div>
+       <div>
+        <i class="fa fa-envelope-o"></i>
+        <span>
+          <h5>arnoldkelly299@gmail.com</h5>
+          <p>Email us your query</p>
+        </span>
+      </div>
+    </div>
+    <div class="contact-col">
+<form action="form-handler.php" method="post">
+  <input type="text" name="name" placeholder="Enter Your Name" required>
+  <input type="email" name="email" placeholder="Enter Email Address" required>
+  <input type="text" name="subject" placeholder="Enter Your Subject" required>
+  <textarea rows="8" name="message" placeholder="Message" required></textarea>
+  <button type="submit" class="hero-btn red-btn"> Send Message</button>
+</form>
+
+
+    </div>
+  </div>
+
+</section>
+    
+
+
+
+
+
+
+
+
+
+
+<!-- -------footer -->
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus, sint laborum animi maxime totam praesentium illo eligendi perferendis. <br> Consequuntur debitis sapiente voluptatum vel voluptatem architecto fugit provident laudantium earum autem.</p>
+    <div class="icons">
+         <i class="fa fa-facebook"></i>
+          <i class="fa fa-twitter"></i>
+           <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+             
+    </div>
+    <p>Made With <i class="fa fa-heart-o" ></i></i>Arnold's Digital services</p>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+    <!-- abeg ooo mek una no touch dis is for javascript for the function of the toogle menu for the smaller phones -->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
